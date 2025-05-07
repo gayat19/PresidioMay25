@@ -1,8 +1,6 @@
 Tables and columns for the following
 
-Case 1: A Simple Case on ER Modelling
-•	Goal – to demonstrate how to build an E-R model from a simple Statement of Objectives of a movie store. ( given very clearly in statement forms)
-Scenario:
+Case 1: A Simple Case
 •	A video store rents movies to members.
 •	Each movie in the store has a title and is identified by a unique movie number.
 •	A movie can be in VHS, VCD, or DVD format.
@@ -18,6 +16,7 @@ Scenario:
  
 ---------------------------------------------------------------------------------------------------------------------
 1) https://www.hackerrank.com/challenges/plus-minus/problem?isFullScreen=true
+
 2) https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true
  
 3) https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=true
