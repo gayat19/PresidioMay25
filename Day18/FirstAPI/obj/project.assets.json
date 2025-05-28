@@ -3365,11 +3365,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gayathrimahadevan/Desktop/APIApps/FirstAPI/FirstAPI.csproj",
+      "projectUniqueName": "/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/FirstAPI.csproj",
       "projectName": "FirstAPI",
-      "projectPath": "/Users/gayathrimahadevan/Desktop/APIApps/FirstAPI/FirstAPI.csproj",
+      "projectPath": "/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/FirstAPI.csproj",
       "packagesPath": "/Users/gayathrimahadevan/.nuget/packages/",
-      "outputPath": "/Users/gayathrimahadevan/Desktop/APIApps/FirstAPI/obj/",
+      "outputPath": "/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gayathrimahadevan/.nuget/NuGet/NuGet.Config"
