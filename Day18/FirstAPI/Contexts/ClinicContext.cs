@@ -15,9 +15,13 @@ namespace FirstAPI.Contexts
         public DbSet<Appointmnet> Appointmnets { get; set; }
         public DbSet<Speciality> Specialities { get; set; }
         public DbSet<DoctorSpeciality> DoctorSpecialities { get; set; }
+        
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+           
+
             modelBuilder.Entity<Appointmnet>().HasKey(app => app.AppointmnetNumber).HasName("PK_AppointmentNumber");
 
             modelBuilder.Entity<Appointmnet>().HasOne(app => app.Patient)
@@ -45,7 +49,7 @@ namespace FirstAPI.Contexts
                                                    .HasForeignKey(ds => ds.SpecialityId)
                                                    .HasConstraintName("FK_Speciality_Spec")
                                                    .OnDelete(DeleteBehavior.Restrict);
-            
+
         }
 
     }

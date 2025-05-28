@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FirstAPI.Repositories
 {
-    public  class Patinet : Repository<int, Patient>
+    public  class PatinetRepository : Repository<int, Patient>
     {
-        protected Patinet(ClinicContext clinicContext) : base(clinicContext)
+        protected PatinetRepository(ClinicContext clinicContext) : base(clinicContext)
         {
         }
 
