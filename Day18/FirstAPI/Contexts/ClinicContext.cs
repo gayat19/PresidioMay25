@@ -1,4 +1,5 @@
 using FirstAPI.Models;
+using FirstAPI.Models.DTOs.DoctorSpecialities;
 using Microsoft.EntityFrameworkCore;
 
 namespace FirstAPI.Contexts
@@ -17,10 +18,17 @@ namespace FirstAPI.Contexts
         public DbSet<DoctorSpeciality> DoctorSpecialities { get; set; }
         
 
+        public DbSet<DoctorsBySpecialityResponseDto> DoctorsBySpeciality{ get; set; }
 
+        public async Task<List<DoctorsBySpecialityResponseDto>> GetDoctorsBySpeciality(string speciality)
+        {
+            return await this.Set<DoctorsBySpecialityResponseDto>()
+                        .FromSqlInterpolated($"select * from proc_GetDoctorsBySpeciality({speciality})")
+                        .ToListAsync();
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-           
+
 
             modelBuilder.Entity<Appointmnet>().HasKey(app => app.AppointmnetNumber).HasName("PK_AppointmentNumber");
 

@@ -7,7 +7,7 @@ namespace FirstAPI.Repositories
 {
     public  class DoctorRepository : Repository<int, Doctor>
     {
-        protected DoctorRepository(ClinicContext clinicContext) : base(clinicContext)
+        public DoctorRepository(ClinicContext clinicContext) : base(clinicContext)
         {
         }
 

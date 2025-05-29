@@ -7,7 +7,7 @@ namespace FirstAPI.Repositories
 {
     public  class AppointmnetRepository : Repository<string, Appointmnet>
     {
-        protected AppointmnetRepository(ClinicContext clinicContext) : base(clinicContext)
+        public AppointmnetRepository(ClinicContext clinicContext) : base(clinicContext)
         {
         }
 

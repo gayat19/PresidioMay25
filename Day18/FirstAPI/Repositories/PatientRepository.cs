@@ -7,7 +7,7 @@ namespace FirstAPI.Repositories
 {
     public  class PatinetRepository : Repository<int, Patient>
     {
-        protected PatinetRepository(ClinicContext clinicContext) : base(clinicContext)
+        public PatinetRepository(ClinicContext clinicContext) : base(clinicContext)
         {
         }
 
