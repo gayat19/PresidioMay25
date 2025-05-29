@@ -32,7 +32,7 @@ builder.Services.AddTransient<IRepository<int, Speciality>, SpecialityRepository
 builder.Services.AddTransient<IRepository<string, Appointmnet>, AppointmnetRepository>();
 builder.Services.AddTransient<IRepository<int, DoctorSpeciality>, DoctorSpecialityRepository>();
 
-builder.Services.AddTransient<IDoctorService, DoctorService>();
+builder.Services.AddTransient<IDoctorService, DoctorServiceWithTransaction>();
 builder.Services.AddTransient<IOtherContextFunctionities, OtherFuncinalitiesImplementation>();
 
 
