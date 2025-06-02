@@ -5,6 +5,7 @@ using FirstAPI.Models;
 using FirstAPI.Repositories;
 using FirstAPI.Services;
 using Microsoft.EntityFrameworkCore;
+using Npgsql.Replication.PgOutput.Messages;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,17 +26,24 @@ builder.Services.AddDbContext<ClinicContext>(opts =>
 {
     opts.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-
+#region  Repositories
 builder.Services.AddTransient<IRepository<int, Doctor>, DoctorRepository>();
 builder.Services.AddTransient<IRepository<int, Patient>, PatinetRepository>();
 builder.Services.AddTransient<IRepository<int, Speciality>, SpecialityRepository>();
 builder.Services.AddTransient<IRepository<string, Appointmnet>, AppointmnetRepository>();
 builder.Services.AddTransient<IRepository<int, DoctorSpeciality>, DoctorSpecialityRepository>();
+builder.Services.AddTransient<IRepository<string, User>, UserRepository>();
+#endregion
 
+#region Services
 builder.Services.AddTransient<IDoctorService, DoctorServiceWithTransaction>();
 builder.Services.AddTransient<IOtherContextFunctionities, OtherFuncinalitiesImplementation>();
+builder.Services.AddTransient<IEncryptionService, EncryptionService>();
+#endregion
 
-
+#region  Misc
+builder.Services.AddAutoMapper(typeof(User));
+#endregion
 
 
 var app = builder.Build();

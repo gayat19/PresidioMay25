@@ -10,6 +10,7 @@ namespace FirstAPI.Misc
             Doctor doctor = new();
             doctor.Name = addRequestDto.Name;
             doctor.YearsOfExperience = addRequestDto.YearsOfExperience;
+            doctor.Email = addRequestDto.Email;
             return doctor;
         }
     }

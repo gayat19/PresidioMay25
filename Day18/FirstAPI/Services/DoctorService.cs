@@ -1,9 +1,10 @@
 using System.Threading.Tasks;
+using AutoMapper;
 using FirstAPI.Interfaces;
 using FirstAPI.Misc;
 using FirstAPI.Models;
 using FirstAPI.Models.DTOs.DoctorSpecialities;
-using Microsoft.VisualBasic;
+
 
 namespace FirstAPI.Services
 {
@@ -14,19 +15,28 @@ namespace FirstAPI.Services
         private readonly IRepository<int, Doctor> _doctorRepository;
         private readonly IRepository<int, Speciality> _specialityRepository;
         private readonly IRepository<int, DoctorSpeciality> _doctorSpecialityRepository;
+        private readonly IRepository<string, User> _userRepository;
         private readonly IOtherContextFunctionities _otherContextFunctionities;
+        private readonly IEncryptionService _encryptionService;
+        private readonly IMapper _mapper;
 
         public DoctorService(IRepository<int, Doctor> doctorRepository,
                             IRepository<int, Speciality> specialityRepository,
                             IRepository<int, DoctorSpeciality> doctorSpecialityRepository,
-                            IOtherContextFunctionities otherContextFunctionities)
+                            IRepository<string,User> userRepository,
+                            IOtherContextFunctionities otherContextFunctionities,
+                            IEncryptionService encryptionService,
+                            IMapper mapper)
         {
             doctorMapper = new DoctorMapper();
             specialityMapper = new();
             _doctorRepository = doctorRepository;
             _specialityRepository = specialityRepository;
             _doctorSpecialityRepository = doctorSpecialityRepository;
+            _userRepository = userRepository;
             _otherContextFunctionities = otherContextFunctionities;
+            _encryptionService = encryptionService;
+            _mapper = mapper;
 
         }
 
@@ -34,6 +44,14 @@ namespace FirstAPI.Services
         {
             try
             {
+                var user = _mapper.Map<DoctorAddRequestDto, User>(doctor);
+                var encryptedData = await _encryptionService.EncryptData(new EncryptModel
+                {
+                    Data= user.Username
+                });
+                user.Password = encryptedData.EncryptedData;
+                user.HashKey = encryptedData.HashKey;
+                user = await _userRepository.Add(user);
                 var newDoctor = doctorMapper.MapDoctorAddRequestDoctor(doctor);
                 newDoctor = await _doctorRepository.Add(newDoctor);
                 if (newDoctor == null)
