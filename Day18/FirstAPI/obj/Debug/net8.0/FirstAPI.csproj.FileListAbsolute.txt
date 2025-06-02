@@ -277,3 +277,4 @@
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/AutoMapper.dll

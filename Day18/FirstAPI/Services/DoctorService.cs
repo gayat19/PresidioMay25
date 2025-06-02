@@ -47,10 +47,11 @@ namespace FirstAPI.Services
                 var user = _mapper.Map<DoctorAddRequestDto, User>(doctor);
                 var encryptedData = await _encryptionService.EncryptData(new EncryptModel
                 {
-                    Data= user.Username
+                    Data= doctor.Password
                 });
                 user.Password = encryptedData.EncryptedData;
                 user.HashKey = encryptedData.HashKey;
+                user.Role = "Doctor";
                 user = await _userRepository.Add(user);
                 var newDoctor = doctorMapper.MapDoctorAddRequestDoctor(doctor);
                 newDoctor = await _doctorRepository.Add(newDoctor);

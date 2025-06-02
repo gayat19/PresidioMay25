@@ -4,6 +4,7 @@ using FirstAPI.Interfaces;
 using FirstAPI.Models;
 using FirstAPI.Models.DTOs.DoctorSpecialities;
 using FirstAPI.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -23,6 +24,7 @@ namespace FirstAPI.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<DoctorsBySpecialityResponseDto>>> GetDoctors(string speciality)
         {
             var result = await _doctorService.GetDoctorsBySpeciality(speciality);
