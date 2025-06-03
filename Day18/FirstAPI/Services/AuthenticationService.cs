@@ -44,6 +44,7 @@ namespace FirstAPI.Services
                     throw new Exception("Invalid password");
                 }
             }
+            dbUser.Role = "Patient";
             var token = await _tokenService.GenerateToken(dbUser);
             return new UserLoginResponse
             {
