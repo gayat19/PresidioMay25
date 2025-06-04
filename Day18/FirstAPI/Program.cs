@@ -11,6 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Npgsql.Replication.PgOutput.Messages;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -50,6 +51,7 @@ builder.Services.AddControllers()
                     opts.JsonSerializerOptions.WriteIndented = true;
                 });
 
+builder.Logging.AddLog4Net();
 
 
 builder.Services.AddDbContext<ClinicContext>(opts =>
@@ -90,6 +92,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 #region  Misc
 builder.Services.AddAutoMapper(typeof(User));
+builder.Services.AddScoped<CustomExceptionFilter>();
 #endregion
 
 
