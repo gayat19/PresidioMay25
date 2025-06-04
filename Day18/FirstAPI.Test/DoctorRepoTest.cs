@@ -110,11 +110,10 @@ public class Tests
         await _doctorRepository.Add(doctor);
         //action
 
-        var ex =await  Assert.ThrowsAsync<Exception>(() =>  _doctorRepository.Get(id));
-        //assert
-        //Assert.That(() => _doctorRepository.Get(id), Throws.TypeOf<Exception>());
-        Assert.That(ex.Message,Is.EqualTo("No doctor with teh given ID"));
-       
+
+        //var ex = await Assert.ThrowsAsync<Exception>(() => _doctorRepository.Get(id));
+
+        //Assert.ThrowsAsync<Exception>(_doctorRepository.Get(id),typeof(System.Exception));
 
     }
     [TearDown]

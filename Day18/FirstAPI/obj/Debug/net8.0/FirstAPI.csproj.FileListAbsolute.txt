@@ -140,7 +140,9 @@
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/FirstAPI.runtimeconfig.json
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/FirstAPI.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/FirstAPI.pdb
+/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/AutoMapper.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Humanizer.dll
+/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
@@ -161,6 +163,12 @@
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Mono.TextTemplating.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Npgsql.dll
@@ -175,6 +183,7 @@
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/System.Composition.Runtime.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/System.Composition.TypedParts.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
@@ -249,12 +258,3 @@
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/obj/Debug/net8.0/FirstAPI.pdb
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/obj/Debug/net8.0/FirstAPI.genruntimeconfig.cache
 /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/obj/Debug/net8.0/ref/FirstAPI.dll
-/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
-/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
-/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
-/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
-/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
-/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
-/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
-/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/bin/Debug/net8.0/AutoMapper.dll

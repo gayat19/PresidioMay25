@@ -14,7 +14,7 @@ namespace FirstAPI.Misc
             _clinicContext = clinicContext;
         }
 
-        public async Task<ICollection<DoctorsBySpecialityResponseDto>> GetDoctorsBySpeciality(string specilaity)
+        public async virtual Task<ICollection<DoctorsBySpecialityResponseDto>> GetDoctorsBySpeciality(string specilaity)
         {
             var result = await _clinicContext.GetDoctorsBySpeciality(specilaity);
             return result;
