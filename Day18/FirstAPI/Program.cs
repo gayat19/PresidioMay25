@@ -95,6 +95,18 @@ builder.Services.AddAutoMapper(typeof(User));
 builder.Services.AddScoped<CustomExceptionFilter>();
 #endregion
 
+#region CORS
+builder.Services.AddCors(options=>{
+    options.AddDefaultPolicy(policy=>{
+        policy.WithOrigins("http://127.0.0.1:5500")
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials();
+    });
+});
+#endregion
+
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -107,6 +119,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseCors();
+app.MapHub<NotificationHub>("/notoficationhub");
+
 app.MapControllers();
 
 app.Run();

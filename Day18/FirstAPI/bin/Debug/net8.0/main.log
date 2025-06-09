@@ -18,3 +18,18 @@ FROM "Users" AS u
 WHERE u."Username" = @__key_0
 LIMIT 2
 2025-06-04 12:54:33,054 [.NET TP Worker] ERROR FirstAPI.Services.AuthenticationService - Invalid login attempt
+2025-06-05 10:41:42,964 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-06-05 11:54:15,379 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5001
+2025-06-05 11:54:15,394 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-05 11:54:15,394 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-05 11:54:15,394 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI
+2025-06-05 11:57:42,460 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-06-05 11:58:02,160 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5001
+2025-06-05 11:58:02,175 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-05 11:58:02,175 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-05 11:58:02,175 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI
+2025-06-05 12:46:58,053 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-06-05 12:47:18,466 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5001
+2025-06-05 12:47:18,482 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-05 12:47:18,483 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-05 12:47:18,483 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI
