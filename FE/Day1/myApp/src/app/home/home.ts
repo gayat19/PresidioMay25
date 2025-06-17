@@ -13,7 +13,7 @@ export class Home implements OnInit {
 
   ngOnInit(): void {
     console.log("init");
-   // this.uname = this.router.snapshot.params["un"] as string
+    this.uname = this.router.snapshot.params["un"] as string
   }
 
 
