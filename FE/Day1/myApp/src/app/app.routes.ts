@@ -3,6 +3,9 @@ import { First } from './first/first';
 import { Login } from './login/login';
 import { Products } from './products/products';
 import { Home } from './home/home';
+import { Profile } from './profile/profile';
+import { AuthGuard } from './auth-guard';
+
 
 export const routes: Routes = [
     {path:'landing',component:First},
@@ -14,6 +17,7 @@ export const routes: Routes = [
             {path:'first',component:First}
 
         ]
-    }
+    },
+    {path:'profile',component:Profile,canActivate:[AuthGuard]}
 
 ];

@@ -5,6 +5,7 @@ import { routes } from './app.routes';
 import { provideHttpClient } from '@angular/common/http';
 import { ProductService } from './services/product.service';
 import { UserService } from './services/UserService';
+import { AuthGuard } from './auth-guard';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -14,5 +15,6 @@ export const appConfig: ApplicationConfig = {
     provideHttpClient(),
     ProductService,
     UserService,
+    AuthGuard
   ]
 };
