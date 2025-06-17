@@ -8,5 +8,12 @@ export const routes: Routes = [
     {path:'landing',component:First},
     {path:'login',component:Login},
     {path:'products',component:Products},
-    {path:'home/:un',component:Home}
+    {path:'home',component:Home,children:
+        [
+            {path:'products',component:Products},
+            {path:'first',component:First}
+
+        ]
+    }
+
 ];

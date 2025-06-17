@@ -1,9 +1,9 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [RouterOutlet],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
@@ -13,7 +13,7 @@ export class Home implements OnInit {
 
   ngOnInit(): void {
     console.log("init");
-    this.uname = this.router.snapshot.params["un"] as string
+   // this.uname = this.router.snapshot.params["un"] as string
   }
 
 
