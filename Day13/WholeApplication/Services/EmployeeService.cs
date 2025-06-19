@@ -10,7 +10,7 @@ namespace WholeApplication.Services
 {
     public class EmployeeService : IEmployeeService
     {
-        IRepositor<int, Employee> _employeeRepository;
+        readonly IRepositor<int, Employee>  _employeeRepository;
         public EmployeeService(IRepositor<int, Employee> employeeRepository)
         {
             _employeeRepository = employeeRepository;

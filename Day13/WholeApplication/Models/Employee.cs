@@ -26,7 +26,7 @@ namespace WholeApplication.Models
             Salary = salary;
         }
 
-        public void TakeEmployeeDetailsFromUser()
+        public virtual void TakeEmployeeDetailsFromUser()
         {
             Console.WriteLine("Please enter the employee name");
             Name = Console.ReadLine()??"";

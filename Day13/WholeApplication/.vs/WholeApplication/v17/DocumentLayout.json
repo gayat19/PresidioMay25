@@ -7,12 +7,40 @@
       "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\manageemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:manageemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\misc\\extensionfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:misc\\extensionfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\interfaces\\irepositor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:interfaces\\irepositor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\interfaces\\iparentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:interfaces\\iparentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\exceptions\\duplicateentityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:exceptions\\duplicateentityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\models\\validemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:models\\validemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,28 +51,12 @@
       "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:models\\searchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\exceptions\\collectionemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:exceptions\\collectionemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\exceptions\\duplicateentityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:exceptions\\duplicateentityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day13\\wholeapplication\\interfaces\\irepositor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8BDBCC1-F399-4B83-8197-29D854F76C19}|WholeApplication.csproj|solutionrelative:interfaces\\irepositor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,52 +78,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "Services\\EmployeeService.cs",
-              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "Services\\EmployeeService.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAcwGYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "ValidEmployee.cs",
+              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Models\\ValidEmployee.cs",
+              "RelativeDocumentMoniker": "Models\\ValidEmployee.cs",
+              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Models\\ValidEmployee.cs",
+              "RelativeToolTip": "Models\\ValidEmployee.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:13:53.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T04:19:33.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Interfaces\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IEmployeeService.cs",
-              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Interfaces\\IEmployeeService.cs",
-              "RelativeToolTip": "Interfaces\\IEmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:09:10.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CollectionEmptyException.cs",
-              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Exceptions\\CollectionEmptyException.cs",
-              "RelativeDocumentMoniker": "Exceptions\\CollectionEmptyException.cs",
-              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Exceptions\\CollectionEmptyException.cs",
-              "RelativeToolTip": "Exceptions\\CollectionEmptyException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T05:25:10.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Repositories\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\EmployeeRepository.cs",
               "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Repositories\\EmployeeRepository.cs",
               "RelativeToolTip": "Repositories\\EmployeeRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBMAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwBoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T05:22:44Z",
               "EditorCaption": ""
@@ -119,58 +104,83 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T04:05:41.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADwvx0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T04:06:06.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ManageEmployee.cs",
               "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\ManageEmployee.cs",
               "RelativeDocumentMoniker": "ManageEmployee.cs",
               "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\ManageEmployee.cs",
               "RelativeToolTip": "ManageEmployee.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAiwKMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwDcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T06:30:54.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SearchModel.cs",
-              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Models\\SearchModel.cs",
-              "RelativeDocumentMoniker": "Models\\SearchModel.cs",
-              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Models\\SearchModel.cs",
-              "RelativeToolTip": "Models\\SearchModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwA8AAAApAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Services\\EmployeeService.cs",
+              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "Services\\EmployeeService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwBEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:10:27.858Z",
+              "WhenOpened": "2025-05-21T06:13:53.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "IRepositor.cs",
+              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Interfaces\\IRepositor.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRepositor.cs",
+              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Interfaces\\IRepositor.cs",
+              "RelativeToolTip": "Interfaces\\IRepositor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T04:24:13.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExtensionFunctions.cs",
+              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Misc\\ExtensionFunctions.cs",
+              "RelativeDocumentMoniker": "Misc\\ExtensionFunctions.cs",
+              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Misc\\ExtensionFunctions.cs",
+              "RelativeToolTip": "Misc\\ExtensionFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T05:26:16.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repository.cs",
+              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T04:27:47.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IParentRepository.cs",
+              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Interfaces\\IParentRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IParentRepository.cs",
+              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Interfaces\\IParentRepository.cs",
+              "RelativeToolTip": "Interfaces\\IParentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T04:32:11.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DuplicateEntityException.cs",
               "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Exceptions\\DuplicateEntityException.cs",
               "RelativeDocumentMoniker": "Exceptions\\DuplicateEntityException.cs",
@@ -178,34 +188,67 @@
               "RelativeToolTip": "Exceptions\\DuplicateEntityException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T04:32:45.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T04:32:45.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Repository.cs",
-              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Repositories\\Repository.cs",
-              "RelativeToolTip": "Repositories\\Repository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "SearchModel.cs",
+              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Models\\SearchModel.cs",
+              "RelativeDocumentMoniker": "Models\\SearchModel.cs",
+              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Models\\SearchModel.cs",
+              "RelativeToolTip": "Models\\SearchModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwA8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T04:27:47.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T06:10:27.858Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "IRepositor.cs",
-              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Interfaces\\IRepositor.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IRepositor.cs",
-              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Interfaces\\IRepositor.cs",
-              "RelativeToolTip": "Interfaces\\IRepositor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA/wC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T04:24:13.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T04:06:06.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAywD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T04:05:41.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CollectionEmptyException.cs",
+              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Exceptions\\CollectionEmptyException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\CollectionEmptyException.cs",
+              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Exceptions\\CollectionEmptyException.cs",
+              "RelativeToolTip": "Exceptions\\CollectionEmptyException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:25:10.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IEmployeeService.cs",
+              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day13\\WholeApplication\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "Interfaces\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T06:09:10.831Z"
             }
           ]
         }

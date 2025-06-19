@@ -49,7 +49,7 @@ namespace WholeApplication
         }
         public void AddEmployee()
         {
-            Employee employee = new Employee();
+            Employee employee = new ValidEmployee();
             employee.TakeEmployeeDetailsFromUser();
             int id = _employeeService.AddEmployee(employee);
             Console.WriteLine("The employee added. The Id is id");

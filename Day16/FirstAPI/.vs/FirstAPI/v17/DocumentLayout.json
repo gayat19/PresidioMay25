@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day16\\FirstAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC955C90-80D2-44F8-B944-D8909FF688E7}|FirstAPI\\FirstAPI.csproj|d:\\corp\\genspark\\presidio\\2025\\participants\\day16\\firstapi\\firstapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC955C90-80D2-44F8-B944-D8909FF688E7}|FirstAPI\\FirstAPI.csproj|solutionrelative:firstapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day16\\FirstAPI\\FirstAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "FirstAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day16\\FirstAPI\\FirstAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "FirstAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T07:02:17.592Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
