@@ -33,3 +33,32 @@ LIMIT 2
 2025-06-05 12:47:18,482 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
 2025-06-05 12:47:18,483 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
 2025-06-05 12:47:18,483 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI
+2025-06-19 09:59:19,187 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5001
+2025-06-19 09:59:19,203 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-19 09:59:19,203 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-19 09:59:19,203 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI
+2025-06-19 10:07:23,591 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-06-19 10:07:30,001 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5001
+2025-06-19 10:07:30,016 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-19 10:07:30,017 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-19 10:07:30,017 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI
+2025-06-19 10:08:44,687 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-06-19 10:08:49,233 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5001
+2025-06-19 10:08:49,247 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-19 10:08:49,248 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-19 10:08:49,248 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI
+2025-06-19 10:09:35,274 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-06-19 10:11:31,734 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5001
+2025-06-19 10:11:31,760 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-19 10:11:31,760 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-19 10:11:31,760 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI
+2025-06-19 10:14:00,190 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-06-19 10:14:12,471 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5001
+2025-06-19 10:14:12,485 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-19 10:14:12,486 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-19 10:14:12,486 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI
+2025-06-19 10:17:42,085 [.NET Signal Handler] INFO Microsoft.Hosting.Lifetime - Application is shutting down...
+2025-06-19 10:17:44,807 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5001
+2025-06-19 10:17:44,821 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-06-19 10:17:44,821 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-06-19 10:17:44,821 [1] INFO Microsoft.Hosting.Lifetime - Content root path: /Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI

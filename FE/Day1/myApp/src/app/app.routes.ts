@@ -5,6 +5,7 @@ import { Products } from './products/products';
 import { Home } from './home/home';
 import { Profile } from './profile/profile';
 import { AuthGuard } from './auth-guard';
+import { NotificationComponent } from './notification/notification';
 
 
 export const routes: Routes = [
@@ -18,6 +19,7 @@ export const routes: Routes = [
 
         ]
     },
-    {path:'profile',component:Profile,canActivate:[AuthGuard]}
+    {path:'profile',component:Profile,canActivate:[AuthGuard]},
+    {path:'msg',component:NotificationComponent}
 
 ];

@@ -99,7 +99,7 @@ builder.Services.AddScoped<CustomExceptionFilter>();
 #region CORS
 builder.Services.AddCors(options=>{
     options.AddDefaultPolicy(policy=>{
-        policy.WithOrigins("http://127.0.0.1:5500")
+        policy.WithOrigins("http://localhost:4200") 
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();
@@ -122,7 +122,8 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseCors();
-app.MapHub<NotificationHub>("/notoficationhub");
+app.MapHub<NotificationHub>("/notificationhub"); // ✅ CORRECT
+
 
 app.MapControllers();
 
