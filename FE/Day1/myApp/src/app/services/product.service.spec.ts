@@ -10,8 +10,8 @@ describe('ProductService',()=>{
 
     beforeEach(()=>{
         TestBed.configureTestingModule({
-            imports:[HttpClientTestingModule],
-            providers:[ProductService,provideHttpClient()]
+            imports:[],
+            providers:[ProductService,provideHttpClient(),provideHttpClientTesting()]
         });
         service = TestBed.inject(ProductService);
         httpMock = TestBed.inject(HttpTestingController);
