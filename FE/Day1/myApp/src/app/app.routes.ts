@@ -6,6 +6,8 @@ import { Home } from './home/home';
 import { Profile } from './profile/profile';
 import { AuthGuard } from './auth-guard';
 import { NotificationComponent } from './notification/notification';
+import { FileUploadComponent } from './file-upload-component/file-upload-component';
+
 
 
 export const routes: Routes = [
@@ -20,6 +22,6 @@ export const routes: Routes = [
         ]
     },
     {path:'profile',component:Profile,canActivate:[AuthGuard]},
-    {path:'msg',component:NotificationComponent}
+    {path:'msg',component:FileUploadComponent}
 
 ];

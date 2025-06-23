@@ -7,6 +7,8 @@ import { ProductService } from './services/product.service';
 import { UserService } from './services/UserService';
 import { AuthGuard } from './auth-guard';
 import { NotificationService } from './services/notification.service';
+import { BulkInsertService } from './services/BulkInsertService';
+
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -14,6 +16,7 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
     provideHttpClient(),
+    BulkInsertService,
     ProductService,
     UserService,
     NotificationService,

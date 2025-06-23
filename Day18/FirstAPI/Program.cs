@@ -73,6 +73,7 @@ builder.Services.AddTransient<IOtherContextFunctionities, OtherFuncinalitiesImpl
 builder.Services.AddTransient<IEncryptionService, EncryptionService>();
 builder.Services.AddTransient<ITokenService, TokenService>();
 builder.Services.AddTransient<IAuthenticationService, AuthenticationService>();
+builder.Services.AddTransient<IFileProcessingService, FileProcessingService>();
 #endregion
 
 #region AuthenticationFilter
@@ -122,7 +123,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseCors();
-app.MapHub<NotificationHub>("/notificationhub"); // ✅ CORRECT
+app.MapHub<NotificationHub>("/notificationhub"); 
 
 
 app.MapControllers();
