@@ -1,1 +1,16 @@
 <p>notification works!</p>
+<div style="max-width: 600px; margin: auto; padding: 20px;">
+  <h2>Real-time Chat</h2>
+
+  <div>
+    <input [(ngModel)]="username" placeholder="Username" />
+    <input [(ngModel)]="message" placeholder="Message" />
+    <button (click)="send()">Send</button>
+  </div>
+
+  <hr />
+
+  <div *ngFor="let msg of notifyService.messages">
+    <strong>{{ msg.user }}</strong>: {{ msg.message }}
+  </div>
+</div>

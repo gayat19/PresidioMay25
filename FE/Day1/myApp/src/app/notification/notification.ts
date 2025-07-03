@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { NotificationService } from '../services/notification.service';
+import { FormsModule } from '@angular/forms';
+import { NgFor, NgIf } from '@angular/common';
 
 
 @Component({
   selector: 'app-notification',
   templateUrl: './notification.html',
-  imports: [],
+  imports: [FormsModule,NgIf,NgFor],
   styleUrls:['./notification.css']
 })
 export class NotificationComponent implements OnInit {
@@ -17,6 +19,7 @@ export class NotificationComponent implements OnInit {
   ngOnInit(): void {
     this.notifyService.startConnection();
   }
+  
 
   send(): void {
     if (this.username && this.message) {

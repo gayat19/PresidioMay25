@@ -9,7 +9,7 @@ export class NotificationService {
 
   startConnection(): void {
     this.hubConnection = new signalR.HubConnectionBuilder()
-      .withUrl('https://localhost:5001/notificationhub')  // 🔁 adjust your backend URL
+      .withUrl('http://localhost:5001/notificationhub')  // 
       .withAutomaticReconnect()
       .build();
 
@@ -21,7 +21,10 @@ export class NotificationService {
     this.hubConnection.on('ReceiveMessage', (user: string, message: string) => {
       this.messages.push({ user, message });
     });
+
+
   }
+
 
   sendMessage(user: string, message: string): void {
     this.hubConnection

@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/FirstAPI.csproj": {}
+    "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day18\\FirstAPI\\FirstAPI.csproj": {}
   },
   "projects": {
-    "/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/FirstAPI.csproj": {
+    "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day18\\FirstAPI\\FirstAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/FirstAPI.csproj",
+        "projectUniqueName": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day18\\FirstAPI\\FirstAPI.csproj",
         "projectName": "FirstAPI",
-        "projectPath": "/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/FirstAPI.csproj",
-        "packagesPath": "/Users/gayathrimahadevan/.nuget/packages/",
-        "outputPath": "/Users/gayathrimahadevan/Desktop/APIApps/Genspark2025/Day18/FirstAPI/obj/",
+        "projectPath": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day18\\FirstAPI\\FirstAPI.csproj",
+        "packagesPath": "C:\\Users\\gayat\\.nuget\\packages\\",
+        "outputPath": "D:\\Corp\\GenSpark\\Presidio\\2025\\Participants\\Day18\\FirstAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/gayathrimahadevan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gayat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -98,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
