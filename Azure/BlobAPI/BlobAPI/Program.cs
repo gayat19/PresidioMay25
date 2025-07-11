@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<BlobStorageService>();
+builder.Services.AddScoped<BlobStorageService>();
 
 var app = builder.Build();
 

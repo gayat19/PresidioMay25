@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlobAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5b849c01b796af95dd988832921fbf7a8b49842")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11df964b3c04b8fb3eaf84256e4a8a14fb77f021")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlobAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlobAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

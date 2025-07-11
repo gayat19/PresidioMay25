@@ -1,6 +1,8 @@
-﻿using BlobAPI.Services;
+﻿using BlobAPI.Models;
+using BlobAPI.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace BlobAPI.Controllers
 {
@@ -15,22 +17,24 @@ namespace BlobAPI.Controllers
             _blobStorageService  = blobStorageService;
         }
         [HttpGet]
-        public async Task<ActionResult<Stream>> Download(string fileName)
+        public async Task<IActionResult> Download(string fileName)
         {
             var stream = await _blobStorageService.DownloadFile(fileName);
             if (stream == null) 
                 return NotFound();
-            return Ok(File(stream, "application/octet-stream", fileName));
+            return File(stream, "application/octet-stream", fileName);
         }
 
-        [HttpPost]
         [Consumes("multipart/form-data")]
-        public async Task<IActionResult> Upload([FromForm] IFormFile file)
+        
+        [HttpPost("upload")]
+
+        public async Task<IActionResult> Upload([FromForm] UploadRequestDto request)
         {
-            if (file == null || file.Length == 0)
+            if (request.File == null || request.File.Length == 0)
                 return BadRequest("No file to upload");
-            using var stream = file.OpenReadStream();
-            await _blobStorageService.UploadFile(stream, file.FileName);
+            using var stream = request.File.OpenReadStream();
+            await _blobStorageService.UploadFile(stream, request.File.FileName);
             return Ok("File uploaded");
         }
     }
