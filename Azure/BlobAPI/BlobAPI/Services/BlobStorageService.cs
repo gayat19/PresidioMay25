@@ -1,29 +1,61 @@
 ﻿using Azure.Storage.Blobs;
+using BlobAPI.Models;
 
 namespace BlobAPI.Services
 {
     public class BlobStorageService
     {
-        private readonly BlobContainerClient _containerClinet;
-        public BlobStorageService(IConfiguration configuration)
+        private readonly IConfiguration _configuration;
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ILogger<BlobStorageService> _logger;
+
+        public BlobStorageService(
+            IConfiguration configuration,
+            IHttpClientFactory httpClientFactory,
+            ILogger<BlobStorageService> logger)
         {
-            var sasUrl = configuration["AzureBlob:ContainerSasUrl"];
-            _containerClinet = new BlobContainerClient(new Uri(sasUrl));
+            _configuration = configuration;
+            _httpClientFactory = httpClientFactory;
+            _logger = logger;
         }
 
-        public async Task UploadFile(Stream fileStream,string fileName)
+        private async Task<BlobClient> GetBlobClientWithSas(string fileName)
         {
-            var blobClient = _containerClinet.GetBlobClient(fileName);
-            await blobClient.UploadAsync(fileStream,overwrite:true);
+            string functionUrl = $"https://mydotnetfunc20250715.azurewebsites.net/api/generate-sas/{fileName}?code=ysVkEFx3YkCxKFVOnFfPNE0vcxg9n3pMBZxGKFgzs6C6AzFur6QlTA==";
+            var client = _httpClientFactory.CreateClient();
+            var sasResponse = await client.GetAsync(functionUrl);
+            if (!sasResponse.IsSuccessStatusCode)
+            {
+                var error = await sasResponse.Content.ReadAsStringAsync();
+                _logger.LogError($"Failed to get SAS URL: {error}");
+                throw new InvalidOperationException("Could not obtain SAS URL.");
+            }
+
+            var sasData = await sasResponse.Content.ReadFromJsonAsync<SasResponse>();
+            if (sasData == null || string.IsNullOrWhiteSpace(sasData.sasUrl))
+            {
+                throw new InvalidOperationException("SAS URL response invalid.");
+            }
+
+            _logger.LogInformation($"SAS URL obtained: {sasData.sasUrl}");
+
+            // Create BlobClient directly using the SAS URL
+            return new BlobClient(new Uri(sasData.sasUrl));
+        }
+
+        public async Task UploadFile(Stream fileStream, string fileName)
+        {
+            var blobClient = await GetBlobClientWithSas(fileName);
+            await blobClient.UploadAsync(fileStream, overwrite: true);
         }
 
         public async Task<Stream> DownloadFile(string fileName)
         {
-            var blobClient = _containerClinet?.GetBlobClient(fileName);
-            if(await blobClient.ExistsAsync())
+            var blobClient = await GetBlobClientWithSas(fileName);
+            if (await blobClient.ExistsAsync())
             {
-                var downloadInfor = await blobClient.DownloadStreamingAsync();
-                return downloadInfor.Value.Content;
+                var downloadInfo = await blobClient.DownloadStreamingAsync();
+                return downloadInfo.Value.Content;
             }
             return null;
         }
